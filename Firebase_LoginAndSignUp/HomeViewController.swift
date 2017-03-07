@@ -1,5 +1,5 @@
 //
-//  ResetPasswordViewController.swift
+//  HomeViewController.swift
 //  Firebase_LoginAndSignUp
 //
 //  Created by user on 07/03/17.
@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import FirebaseAuth
-class ResetPasswordViewController: UIViewController {
 
+class HomeViewController: UIViewController {
+    
     
     // MARK: - Properties
     
@@ -32,5 +32,4 @@ class ResetPasswordViewController: UIViewController {
     
     
     // MARK: - Functions
-
 }

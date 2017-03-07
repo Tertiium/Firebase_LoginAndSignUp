@@ -16,6 +16,7 @@
 		CE52B2881E6EE21D0040EB20 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52B2871E6EE21D0040EB20 /* SignUpViewController.swift */; };
 		CE52B28A1E6EE2330040EB20 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52B2891E6EE2330040EB20 /* ResetPasswordViewController.swift */; };
 		CE52B28C1E6EF0680040EB20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE52B28B1E6EF0680040EB20 /* GoogleService-Info.plist */; };
+		CE52B28E1E6F29830040EB20 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52B28D1E6F29830040EB20 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CE52B2871E6EE21D0040EB20 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CE52B2891E6EE2330040EB20 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		CE52B28B1E6EF0680040EB20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE52B28D1E6F29830040EB20 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				CE52B2851E6EE1F80040EB20 /* LoginViewController.swift */,
 				CE52B2871E6EE21D0040EB20 /* SignUpViewController.swift */,
 				CE52B2891E6EE2330040EB20 /* ResetPasswordViewController.swift */,
+				CE52B28D1E6F29830040EB20 /* HomeViewController.swift */,
 				CE52B2771E6DD0720040EB20 /* Main.storyboard */,
 				CE52B27A1E6DD0720040EB20 /* Assets.xcassets */,
 				CE52B27C1E6DD0720040EB20 /* LaunchScreen.storyboard */,
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE52B28E1E6F29830040EB20 /* HomeViewController.swift in Sources */,
 				CE52B2881E6EE21D0040EB20 /* SignUpViewController.swift in Sources */,
 				CE52B2861E6EE1F80040EB20 /* LoginViewController.swift in Sources */,
 				CE52B2741E6DD0720040EB20 /* AppDelegate.swift in Sources */,
