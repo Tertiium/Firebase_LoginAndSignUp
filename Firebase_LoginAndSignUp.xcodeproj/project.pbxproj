@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CE52B2741E6DD0720040EB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52B2731E6DD0720040EB20 /* AppDelegate.swift */; };
-		CE52B2761E6DD0720040EB20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52B2751E6DD0720040EB20 /* ViewController.swift */; };
 		CE52B2791E6DD0720040EB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52B2771E6DD0720040EB20 /* Main.storyboard */; };
 		CE52B27B1E6DD0720040EB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE52B27A1E6DD0720040EB20 /* Assets.xcassets */; };
 		CE52B27E1E6DD0720040EB20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52B27C1E6DD0720040EB20 /* LaunchScreen.storyboard */; };
+		CE52B2861E6EE1F80040EB20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52B2851E6EE1F80040EB20 /* LoginViewController.swift */; };
+		CE52B2881E6EE21D0040EB20 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52B2871E6EE21D0040EB20 /* SignUpViewController.swift */; };
+		CE52B28A1E6EE2330040EB20 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52B2891E6EE2330040EB20 /* ResetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE52B2701E6DD0720040EB20 /* Firebase_LoginAndSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase_LoginAndSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE52B2731E6DD0720040EB20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE52B2751E6DD0720040EB20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE52B2781E6DD0720040EB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE52B27A1E6DD0720040EB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE52B27D1E6DD0720040EB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE52B27F1E6DD0720040EB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE52B2851E6EE1F80040EB20 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE52B2871E6EE21D0040EB20 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CE52B2891E6EE2330040EB20 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				CE52B2731E6DD0720040EB20 /* AppDelegate.swift */,
-				CE52B2751E6DD0720040EB20 /* ViewController.swift */,
+				CE52B2851E6EE1F80040EB20 /* LoginViewController.swift */,
+				CE52B2871E6EE21D0040EB20 /* SignUpViewController.swift */,
+				CE52B2891E6EE2330040EB20 /* ResetPasswordViewController.swift */,
 				CE52B2771E6DD0720040EB20 /* Main.storyboard */,
 				CE52B27A1E6DD0720040EB20 /* Assets.xcassets */,
 				CE52B27C1E6DD0720040EB20 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE52B2761E6DD0720040EB20 /* ViewController.swift in Sources */,
+				CE52B2881E6EE21D0040EB20 /* SignUpViewController.swift in Sources */,
+				CE52B2861E6EE1F80040EB20 /* LoginViewController.swift in Sources */,
 				CE52B2741E6DD0720040EB20 /* AppDelegate.swift in Sources */,
+				CE52B28A1E6EE2330040EB20 /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +308,7 @@
 				CE52B2841E6DD0720040EB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
