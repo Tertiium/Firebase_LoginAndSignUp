@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class HomeViewController: UIViewController {
     
@@ -29,6 +30,20 @@ class HomeViewController: UIViewController {
     
     // MARK: - Actions
     
+    @IBAction func logOutAction(_ sender: UIButton) {
+        
+        if FIRAuth.auth()?.currentUser != nil{
+            do{
+                try FIRAuth.auth()?.signOut()
+                if let vc = self.storyboard?.instantiateViewController(withIdentifier: "SignUp"){
+                    present(vc, animated: true, completion: nil)
+                }
+            }catch let error as NSError{
+                print(error.localizedDescription)
+            }
+        }
+        
+    }
     
     
     // MARK: - Functions

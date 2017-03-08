@@ -48,6 +48,7 @@ class LoginViewController: UIViewController {
                     
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
                     self.present(vc!, animated: true, completion: nil)
+                    
                 }
             })
         }else{

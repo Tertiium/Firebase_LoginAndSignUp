@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Firebase_LoginAndSignUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Firebase_LoginAndSignUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -43,7 +43,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVY-XP-6dm">
                                 <rect key="frame" x="135" y="251" width="50" height="30"/>
@@ -113,7 +113,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="d0r-29-Q5p">
             <objects>
-                <viewController id="3rE-Va-l7h" customClass="SignUpViewController" customModule="Firebase_LoginAndSignUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUp" id="3rE-Va-l7h" customClass="SignUpViewController" customModule="Firebase_LoginAndSignUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wHj-JQ-XAf"/>
                         <viewControllerLayoutGuide type="bottom" id="ZS3-TZ-25U"/>
@@ -214,7 +214,7 @@
         <!--Reset Password View Controller-->
         <scene sceneID="bRX-5M-UlR">
             <objects>
-                <viewController id="gYB-zg-1xy" customClass="ResetPasswordViewController" customModule="Firebase_LoginAndSignUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResetPassword" id="gYB-zg-1xy" customClass="ResetPasswordViewController" customModule="Firebase_LoginAndSignUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XZP-Gq-QZ9"/>
                         <viewControllerLayoutGuide type="bottom" id="bLD-Nb-VQF"/>
@@ -246,6 +246,9 @@
                                 <state key="normal" title="Reset Password">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resetPasswordAction:" destination="gYB-zg-1xy" eventType="touchUpInside" id="mi8-Fg-bww"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YrS-dG-Qmb">
                                 <rect key="frame" x="133" y="442" width="55" height="30"/>
@@ -287,6 +290,9 @@
                             <constraint firstItem="7sl-D5-HnH" firstAttribute="top" secondItem="rtB-hR-PUA" secondAttribute="bottom" constant="10" id="y0l-df-p63"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="rtB-hR-PUA" id="KPI-4A-iao"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="du3-6e-UcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -316,6 +322,9 @@
                                 <state key="normal" title="Log Out">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="logOutAction:" destination="zkq-w4-2WY" eventType="touchUpInside" id="dBQ-DM-YU8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -333,8 +342,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4tk-53-CDp"/>
-        <segue reference="ySO-1g-h15"/>
+        <segue reference="My3-c0-QVn"/>
         <segue reference="5m2-0x-3kd"/>
+        <segue reference="LNY-WK-mcd"/>
     </inferredMetricsTieBreakers>
 </document>
